@@ -21,3 +21,5 @@
 
 en:
   hello: "Hello world"
+  spree:
+    back_to_reviews_list: "Back to review list"

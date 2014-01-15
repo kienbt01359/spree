@@ -26,6 +26,8 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+gem "better_errors", "~> 1.1.0"
+gem "binding_of_caller"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -49,3 +51,4 @@ gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :bran
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-1-stable'
 gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git', :branch => '2-1-stable'
 gem 'spree_simple_sales', path: "/home/kien/projects/spree_simple_sales"
+gem 'spree_reviews', github: 'spree/spree_reviews', branch: '2-1-stable'
