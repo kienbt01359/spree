@@ -1,0 +1,2 @@
+SpreeI18n::Config.available_locales = [:en, :'pt-BR', :vi, :fr, :ja, :es] # displayed on translation forms
+SpreeI18n::Config.supported_locales = [:en, :'pt-BR', :vi, :fr, :ja, :es] # displayed on frontend select box

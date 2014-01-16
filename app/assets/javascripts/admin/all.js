@@ -12,3 +12,4 @@
 //= require_tree .
 //= require admin/spree_fancy
 //= require admin/spree_simple_sales
+//= require admin/spree_i18n

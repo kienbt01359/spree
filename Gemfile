@@ -52,3 +52,4 @@ gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git
 gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git', :branch => '2-1-stable'
 gem 'spree_simple_sales', path: "/home/kien/projects/spree_simple_sales"
 gem 'spree_reviews', github: 'spree/spree_reviews', branch: '2-1-stable'
+gem 'spree_i18n', github: 'spree/spree_i18n', branch: '2-1-stable'

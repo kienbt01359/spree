@@ -62,6 +62,16 @@ GIT
       spree_core (~> 2.1.0)
 
 GIT
+  remote: git://github.com/spree/spree_i18n.git
+  revision: a184a854473ab664ab4d87f6116683521b25b7d7
+  branch: 2-1-stable
+  specs:
+    spree_i18n (3.0.0)
+      globalize (~> 4.0.0)
+      rails-i18n (~> 0.7.3)
+      spree_core (~> 2.1.0)
+
+GIT
   remote: git://github.com/spree/spree_reviews.git
   revision: 65e0b3a0baae383f633de839a1d4bb7647a69658
   branch: 2-1-stable
@@ -195,6 +205,9 @@ GEM
     execjs (2.0.2)
     ffaker (1.22.1)
     fssm (0.2.10)
+    globalize (4.0.0)
+      activemodel (>= 4.0.0, < 5)
+      activerecord (>= 4.0.0, < 5)
     gyoku (0.4.6)
       builder (>= 2.1.2)
     highline (1.6.20)
@@ -255,6 +268,8 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.0.2)
       sprockets-rails (~> 2.0.0)
+    rails-i18n (0.7.4)
+      i18n (~> 0.5)
     railties (4.0.2)
       actionpack (= 4.0.2)
       activesupport (= 4.0.2)
@@ -340,6 +355,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_fancy!
   spree_gateway!
+  spree_i18n!
   spree_reviews!
   spree_simple_sales!
   sqlite3

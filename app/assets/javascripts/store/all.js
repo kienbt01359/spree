@@ -13,3 +13,4 @@
 //= require store/spree_fancy
 //= require store/spree_simple_sales
 //= require jquery.rating
+//= require store/spree_i18n
