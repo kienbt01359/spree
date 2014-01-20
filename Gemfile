@@ -54,3 +54,4 @@ gem 'spree_simple_sales', path: "/home/kien/projects/spree_simple_sales"
 gem 'spree_reviews', github: 'spree/spree_reviews', branch: '2-1-stable'
 gem 'spree_i18n', github: 'spree/spree_i18n', branch: '2-1-stable'
 gem "spree_comments", github: 'spree/spree_comments', branch: '2-1-stable'
+gem 'spree_active_shipping', :git => "git://github.com/spree/spree_active_shipping", :branch => '2-1-stable'
